@@ -1,0 +1,66 @@
+body{
+  background-color:rgb(28, 23, 23) ;
+}
+h3{
+  color:beige ;
+}
+hr{
+  width: 99%;
+  color: beige;
+}
+.tg-bar{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  background-color: black;
+}
+.tg-bar button{
+  height: 50px;
+  color: beige;
+  background-color: rgb(17, 17, 17);
+  padding: 10px;
+  margin: 1px;
+  border: none;
+}
+.logo{
+  height: 70px;
+  width: 100px;
+}
+.content{
+  margin-top: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inp-bar{
+  
+  border: none;
+  border-radius: 25px;
+  height: 27px;
+  margin-left: 80px;
+  width: 80%;
+  padding-left: 10px;
+}
+.inp-but{
+  width: 30px;
+ border-radius: 25px;
+ border: none;
+ height: 31px;
+}
+
+.txtar{
+  margin-left: 243px;
+  text-align: left;
+  width: 78%;
+  margin-top: 80px;
+  padding-top: 520px;
+  height: 70px;
+  background-color: rgba(0, 0, 0 , 0.4);
+}
+
