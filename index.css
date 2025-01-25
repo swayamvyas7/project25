@@ -1,4 +1,5 @@
 body{
+  background-image: url(edu1.jpg);
   background-color:rgb(28, 23, 23) ;
 }
 h3{
@@ -36,6 +37,27 @@ hr{
   margin-top: 380px;
   display: flex;
   flex-direction: column;
+}.txtar{
+  word-wrap: break-word;
+  border-radius: 20px;
+  position: relative;
+  margin-left: 243px;
+  text-align: left;
+  width: 78%;
+  margin-top: 80px;
+  height: 580px;
+  background-color: rgba(0, 0, 0 , 0.7);
+  
+}
+.exchange-box{
+  overflow-y: auto;
+}
+
+.txtin{
+  width: 100%;
+  display: flex;
+ position: absolute;
+ bottom: 0;
 }
 
 .inp-bar{
@@ -53,14 +75,17 @@ hr{
  border: none;
  height: 31px;
 }
+.message.question {
+  padding-bottom: 7px;
+ color: aliceblue;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 5px;
+}
 
-.txtar{
-  margin-left: 243px;
+.message.answer {
+  padding-left: 10px;
+  color: azure;
   text-align: left;
-  width: 78%;
-  margin-top: 80px;
-  padding-top: 520px;
-  height: 70px;
-  background-color: rgba(0, 0, 0 , 0.4);
 }
 
