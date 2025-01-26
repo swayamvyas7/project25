@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translation Page</title>
+  <link rel="stylesheet" href="enhance.css">
+</head>
+<body>
+  <div class="tg-bar">
+    <img class="logo" src="Logo1.png" alt="Logo">
+    <hr>
+    <div class="content">
+      <button>Doubts</button>
+      <button>Enhance</button>
+      <button>Summarize</button>
+      <button>Translate</button>
+    </div>
+  </div>
+
+  <div class="txtar">
+    <div id="exchangeBox" class="exchange-box">
+      <!-- Messages will appear here -->
+    </div>
+
+    <div class="txtin">
+      <input type="text" name="textBox" class="inp-bar" id="text-input" placeholder="Enter text to translate...">
+      <select id="language-select" class="lang-select">
+        <option value="" disabled selected>Select language</option>
+        <!-- Languages will be populated dynamically -->
+      </select>
+      <button id="submit-btn" type="submit" class="inp-but">&#8593;</button>
+    </div>
+  </div>
+
+  <script src="enhance.js"></script>
+</body>
+</html>
+
